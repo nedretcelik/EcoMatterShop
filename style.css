@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'nunito regular';
+    src: url(/fonts/Nunito-Regular.ttf);
+}
+
+html {
+    margin: 0 ;
+    padding: 0;
+    font-family: 'nunito regular';
+    color: black;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-list ul {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    
+   
+}
+.nav-list li {
+    font-size: 24px;
+    
+} 
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+.icon span {
+    padding: 10px;
+}
+
+/*Product info*/
+
+.product-info {
+    width: 100%;
+    height:700px;
+    border: 1px solid red;
+    background-image: url(/images/new-banner.jpg);
+  
+}
