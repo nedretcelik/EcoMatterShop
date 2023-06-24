@@ -50,7 +50,7 @@ header {
     
 } 
 .nav-list a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 .icon {
@@ -165,8 +165,6 @@ button h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-
 }
 
 .info-1, .info-2, 
@@ -179,9 +177,12 @@ button h1{
     align-content: center;
     padding-top: 20px;
     color: rgb(90, 87, 87);
-
 }
 
 
+footer {
+    border-top: 1px solid gray;
+    color: rgb(114, 107, 107);
+}
 
 
